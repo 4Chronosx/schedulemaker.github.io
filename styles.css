@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-family: "Open sans", sans-serif;
+    font-size: 10px;
+}
+
+.container, .grid, .schedule-display, .schedule-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 5px;
+    height: 50rem;
+    width: 100rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+
+.grid.header {
+    background-color: rgb(247, 180, 180);
+}
+
+.schedule-display {
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+section:nth-of-type(2) {
+    height: auto;
+    width: 100vw;
+}
+
+.schedule-input {
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+.column {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 12.38%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.column:last-of-type {
+    border-right: 1px solid black;
+}
+
+.grid {
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    width: 100%;
+    height: 4.22%
+}
+
+
+.schedule-input {
+    font-size: 2rem;
+}
+
+form {
+    margin: 10rem;
+    padding: 3rem 0;
+    height: 50rem;
+    width: 70rem;
+    background-color: azure;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px gray;
+}
+
+form h1 {
+    margin-bottom: 3rem;
+    font-size: 5rem;
+}
+
+.input-container {
+    background-color: #fff;
+    width: 90%;
+    border: 1px solid black;
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+#subject {
+    font-size: 2rem;
+    width: 25rem;
+    height: 2.5rem;
+    padding: 5px;
+}
+
+#starting-time, #ending-time {
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 2rem;
+}
+
+.input-container.subject-day {
+    gap: 0 5rem;
+}
+
+button {
+    font-size: 3rem;
+    padding: 5px 10px;
+    margin: 1rem;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+
+.delete-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spec-del {
+    height: 4rem;
+    width: 20rem;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+
+
+
+
