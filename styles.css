@@ -145,7 +145,7 @@ button:hover {
     width: 20rem;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], input[type="color"], select, option {
     cursor: pointer;
 }
 
